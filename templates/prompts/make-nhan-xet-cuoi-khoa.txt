@@ -1,0 +1,56 @@
+[Tạo Báo Cáo Nhận Xét Cuối Khóa]
+
+1. Vai trò (Role)
+Bạn là một trợ lý giáo dục và lập trình viên Front-end chuyên nghiệp. Nhiệm vụ của bạn là tạo ra một phiếu nhận xét kết quả học tập cuối khóa (Report Card) dưới dạng một trang web HTML đơn (Single Page), giao diện đẹp mắt, chuyên nghiệp để gửi cho phụ huynh.
+
+2. Yêu cầu kỹ thuật (Technical Requirements)
+Hãy viết code để tạo ra file báo cáo với các yêu cầu sau:
+Công nghệ:
+Sử dụng HTML5 cấu trúc chuẩn.
+Sử dụng Tailwind CSS (qua đường dẫn CDN) để style toàn bộ giao diện.
+Có thể sử dụng FontAwesome hoặc Lucide Icons (CDN) cho các biểu tượng (icon thái độ, kỹ năng, v.v.).
+Cấu trúc file:
+Toàn bộ HTML, CSS và JS (nếu có) phải nằm trong 01 file duy nhất.
+Không sử dụng hình ảnh từ nguồn ngoài (external images) để tránh lỗi hiển thị. Nếu cần ảnh đại diện hoặc logo, hãy dùng placeholder (khối màu có chữ cái đầu tên) hoặc SVG inline.
+Giao diện (UI/UX):
+Layout: Thiết kế giống một tờ giấy A4 hoặc một Dashboard tổng hợp (Canvas).
+Phong cách: Hiện đại, sạch sẽ, màu sắc tươi sáng nhưng chuyên nghiệp (phù hợp lứa tuổi học sinh).
+Responsive: Hiển thị tốt trên cả máy tính và điện thoại di động.
+Typography: Sử dụng font chữ không chân (Sans-serif) dễ đọc (ưu tiên Inter hoặc Roboto từ Google Fonts).
+Điểm nhấn: In đậm tên học viên, số điểm, và các tiêu đề mục. Sử dụng các thanh tiến độ (progress bar) hoặc các thẻ (badges) để hiển thị kỹ năng trực quan hơn.
+4. Output mong muốn
+Trả về 1 file HTML hoàn chỉnh chứa code đã được tối ưu. File này sẽ được gửi trực tiếp cho phụ huynh xem trên trình duyệt.
+
+2. Bối cảnh & Dữ liệu đầu vào (Context & Input Data)
+Thông tin khóa học:
+
+Môn học: Python App Basic
+
+Học viên: Trần Minh Phú
+
+Dữ liệu đánh giá chi tiết:
+
+Thái độ học tập:
+Điểm mạnh: 
+- Nghiêm túc, chủ động, vui vẻ, hòa đồng, ham học hỏi (thường xuyên hỏi thêm kiến thức mở rộng).
+Điểm cần cải thiện: 
+- Hay đi học muộn, đôi lúc mất tập trung trong giờ giảng.
+
+Kiến thức chuyên môn:
+Điểm mạnh: 
+- Tiếp thu tốt, vận dụng tốt kiến thức vào bài tập, kỹ năng giải quyết vấn đề ở mức Tốt.
+Điểm cần cải thiện: 
+- Cần thầy giảng lại khi mất tập trung, gặp vấn đề khó vẫn cần hỗ trợ, hay quên kiến thức cũ do lười làm bài tập về nhà.
+
+Kỹ năng mềm & Công cụ:
+Thành thạo: 
+- Sử dụng máy tính cơ bản, kỹ năng đánh máy tốt, kỹ năng tìm kiếm thông tin (Google Search) tốt.
+- Hạn chế: Chưa chủ động tự tìm tòi kiến thức mới (cần nhắc nhở).
+
+Điểm tổng kết (Sản phẩm cuối khóa): 7.5/10
+
+Nhận xét chung: 
+- Con xử lý tốt các vấn đề đã học, làm bài tập trung và có tính độc lập.
+
+Đề xuất cải thiện: 
+- Cần tập trung hơn trong giờ học và hoàn thành bài tập về nhà đầy đủ để nhớ bài lâu hơn.

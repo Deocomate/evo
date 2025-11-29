@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đánh Giá Cuối Khóa - Minh Hiếu</title>
+    <style>
+        :root {
+            --primary-blue: #2176bd;
+            --primary-orange: #fbb016;
+            --text-color: #333;
+            --light-gray: #f5f5f5;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            background-color: #e9ecef;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        /* Header Decor */
+        .header-strip {
+            display: flex;
+            height: 12px;
+            width: 100%;
+        }
+        .strip-orange {
+            background-color: var(--primary-orange);
+            width: 100%;
+            height: 100%;
+        }
+        .strip-blue {
+            background-color: var(--primary-blue);
+            width: 100%;
+            height: 12px;
+        }
+
+        .content-padding {
+            padding: 40px;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            color: var(--primary-blue);
+            text-transform: uppercase;
+            font-size: 24px;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+
+        header h2 {
+            font-size: 18px;
+            font-weight: normal;
+            margin-top: 0;
+            color: #666;
+        }
+
+        .student-info {
+            background-color: #fff;
+            border-left: 5px solid var(--primary-orange);
+            padding: 15px 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .student-info p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+
+        /* Table Section */
+        h3.section-title {
+            color: var(--primary-blue);
+            border-bottom: 2px solid var(--primary-orange);
+            padding-bottom: 10px;
+            margin-top: 30px;
+            display: inline-block;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 15px;
+        }
+
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        table th {
+            background-color: var(--primary-blue);
+            color: white;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .criteria-group {
+            background-color: #f9f9f9;
+            font-weight: bold;
+            color: var(--primary-blue);
+        }
+
+        .score-cell {
+            text-align: center;
+            font-weight: bold;
+            color: var(--primary-blue);
+            width: 80px;
+        }
+
+        /* Summary Section */
+        .summary-box {
+            background-color: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 30px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .summary-col {
+            flex: 1;
+            min-width: 200px;
+            margin: 10px;
+        }
+
+        .total-score {
+            text-align: center;
+            background: var(--primary-blue);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .total-score h2 {
+            margin: 0;
+            font-size: 32px;
+        }
+        
+        .total-score span {
+            font-size: 14px;
+            text-transform: uppercase;
+            opacity: 0.9;
+        }
+
+        .ranking-note {
+            font-size: 13px;
+            color: #666;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        /* Letter Section */
+        .letter-section {
+            background-color: white;
+            margin-top: 40px;
+        }
+
+        .letter-content {
+            text-align: justify;
+        }
+
+        .letter-content ul {
+            list-style-type: none; /* Remove default bullets */
+            padding-left: 0;
+        }
+
+        .letter-content li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        .letter-content li::before {
+            content: "•";
+            color: var(--primary-orange);
+            font-weight: bold;
+            font-size: 1.2em;
+            position: absolute;
+            left: 0;
+            top: -2px;
+        }
+
+        strong {
+            color: var(--primary-blue);
+        }
+
+        .signature {
+            margin-top: 50px;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+            text-align: right;
+        }
+
+        .footer-strip {
+            margin-top: 0;
+        }
+
+        @media (max-width: 600px) {
+            .content-padding {
+                padding: 20px;
+            }
+            .summary-box {
+                flex-direction: column;
+                text-align: center;
+            }
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+            thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+            tr { border: 1px solid #ccc; margin-bottom: 10px; }
+            td {
+                border: none;
+                border-bottom: 1px solid #eee;
+                position: relative;
+                padding-left: 50%;
+            }
+            td:before {
+                position: absolute;
+                top: 12px;
+                left: 12px;
+                width: 45%;
+                padding-right: 10px;
+                white-space: nowrap;
+                font-weight: bold;
+                content: attr(data-label);
+            }
+            /* Reset specific styles for mobile table view */
+            .criteria-group {
+                background-color: var(--primary-blue);
+                color: white;
+                text-align: center;
+                padding-left: 12px;
+            }
+            .criteria-group:before { content: none; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header-strip">
+        <div class="strip-orange"></div>
+    </div>
+    <div class="strip-blue"></div>
+
+    <div class="content-padding">
+        <header>
+            <h2>EVO Creative Technology School</h2>
+            <h1>ĐÁNH GIÁ VÀ NHẬN XÉT CUỐI KHOÁ HỌC</h1>
+        </header>
+
+        <div class="student-info">
+            <p><strong>Học sinh:</strong> Minh Hiếu</p>
+            <p><strong>Lớp:</strong> Python App Basic</p>
+            <p><strong>Giới tính:</strong> Nam</p>
+        </div>
+
+        <h3 class="section-title">Kết quả học tập</h3>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 30%">Tiêu chí</th>
+                    <th style="width: 10%">Điểm</th>
+                    <th>Nhận xét chi tiết</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Attitude -->
+                <tr class="criteria-group">
+                    <td colspan="3">1. Thái độ</td>
+                </tr>
+                <tr>
+                    <td data-label="Tiêu chí">* Hợp tác trên lớp</td>
+                    <td class="score-cell" data-label="Điểm">4.0</td>
+                    <td data-label="Nhận xét">Minh Hiếu rất vui vẻ, hòa đồng và tích cực tương tác với bạn bè. Tuy nhiên, trong giờ học con hay mất tập trung và làm việc riêng, cần thầy phải nhắc nhở nhiều lần.</td>
+                </tr>
+                <tr>
+                    <td data-label="Tiêu chí">* Làm bài tập về nhà</td>
+                    <td class="score-cell" data-label="Điểm">4.0</td>
+                    <td data-label="Nhận xét">Con có ý thức tốt trong việc hoàn thành bài tập về nhà đầy đủ và nộp đúng thời hạn quy định.</td>
+                </tr>
+
+                <!-- Skills -->
+                <tr class="criteria-group">
+                    <td colspan="3">2. Kỹ năng</td>
+                </tr>
+                <tr>
+                    <td data-label="Tiêu chí">* Kỹ năng lập trình</td>
+                    <td class="score-cell" data-label="Điểm">3.5</td>
+                    <td data-label="Nhận xét">Con viết code sạch, nhưng kỹ năng giải quyết vấn đề bằng code cần được cải thiện thêm. Hiện tại con xử lý logic khá nhưng cần luyện tập để thành thạo hơn.</td>
+                </tr>
+                <tr>
+                    <td data-label="Tiêu chí">* Kỹ năng tự tìm hiểu</td>
+                    <td class="score-cell" data-label="Điểm">5.0</td>
+                    <td data-label="Nhận xét">Đây là điểm mạnh nhất của Hiếu. Với vốn tiếng Anh tốt, con chủ động tìm kiếm tài liệu và tự giải quyết các vấn đề phát sinh rất hiệu quả.</td>
+                </tr>
+                <tr>
+                    <td data-label="Tiêu chí">* Kỹ năng phân tích</td>
+                    <td class="score-cell" data-label="Điểm">5.0</td>
+                    <td data-label="Nhận xét">Khả năng phân tích đề bài của con rất tốt, tiếp thu nhanh và định hình được hướng giải quyết vấn đề một cách mạch lạc.</td>
+                </tr>
+
+                <!-- Knowledge -->
+                <tr class="criteria-group">
+                    <td colspan="3">3. Kiến thức</td>
+                </tr>
+                <tr>
+                    <td data-label="Tiêu chí">* Kiến thức trong khoá học</td>
+                    <td class="score-cell" data-label="Điểm">3.5</td>
+                    <td data-label="Nhận xét">Con nắm bắt kiến thức cơ bản về Python tốt. Tuy nhiên do còn chủ quan nên đôi khi chưa đi sâu vào chi tiết kỹ thuật.</td>
+                </tr>
+                <tr>
+                    <td data-label="Tiêu chí">* Kiến thức tự học</td>
+                    <td class="score-cell" data-label="Điểm">5.0</td>
+                    <td data-label="Nhận xét">Con rất tích cực và chủ động tìm hiểu thêm các kiến thức mở rộng ngoài giờ học, thể hiện sự tò mò khoa học đáng khen ngợi.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="summary-box">
+            <div class="summary-col">
+                <p><strong>Điểm trung bình thành phần:</strong></p>
+                <ul>
+                    <li>Thái độ: <strong>4.0/5</strong></li>
+                    <li>Kỹ năng: <strong>4.5/5</strong></li>
+                    <li>Kiến thức: <strong>4.3/5</strong></li>
+                </ul>
+            </div>
+            <div class="summary-col total-score">
+                <span>Tổng điểm trung bình</span>
+                <h2>4.3/5</h2>
+                <span>Xếp hạng: A</span>
+            </div>
+        </div>
+        <div class="ranking-note">
+            (Lưu ý tính xếp hạng: Hạng S: 5 điểm | Hạng A: 4 - 4.9 | Hạng B: 3 - 3.9 | Hạng C: 2 - 2.9 | Hạng D: dưới 2)
+        </div>
+
+        <hr style="border: 0; border-top: 2px dashed #ccc; margin: 40px 0;">
+
+        <div class="letter-section">
+            <h3>Thư từ EVO Creative Technology School</h3>
+            
+            <p>Gửi gia đình học viên <strong>Minh Hiếu</strong>,</p>
+            
+            <p>Đầu tiên, tất cả đội ngũ thành viên của EVO Creative Technology School xin gửi lời cảm ơn chân thành nhất đến gia đình đã tin tưởng và gửi gắm bạn Minh Hiếu theo học trong khóa học vừa qua. Và cũng xin gửi lời chúc mừng bạn Minh Hiếu đã hoàn thành thành công khóa học <strong>Lập trình Python App Basic</strong> của EVO.</p>
+
+            <h4>Con đã học được gì từ EVO?</h4>
+            <div class="letter-content">
+                <ul>
+                    <li><strong>Về kiến thức chuyên môn:</strong> Qua 15 buổi học, Minh Hiếu đã được tìm hiểu các khái niệm về ngôn ngữ lập trình Python, cách lập trình giải quyết các bài toán với ngôn ngữ lập trình Python. Từ đó, con cũng đã xây dựng thuật toán và sơ đồ khối, hiểu biết về khái niệm ngôn ngữ máy, danh sách, vòng lặp và câu điều kiện, xâu ký tự, hàm…</li>
+                    <li><strong>Về thực hành:</strong> Kết thúc phần học, Minh Hiếu đã có thế áp dụng các kiến thức được học để giải quyết các bài toán thực tế. Với khả năng phân tích đề bài tốt và vốn tiếng Anh xuất sắc, con đã hoàn thành sản phẩm cuối khóa, tuy nhiên kỹ năng viết code vẫn cần được trau chuốt thêm để sản phẩm được vận hành tối ưu nhất.</li>
+                    <li><strong>Kỹ năng công cụ:</strong> Trong khóa học, con cũng được học thêm về sử dụng AI, máy tính một cách hiểu quả, cũng như thành thạo công cụ lập trình như Visual Studio Code, Pycharm.</li>
+                    <li><strong>Kết quả kiểm tra:</strong>
+                        <br> - Bài kiểm tra cuối khóa: <strong>8/10</strong>
+                    </li>
+                </ul>
+            </div>
+
+            <h4>Dưới đây là một số nhận xét của giảng viên về bạn trong xuyên suốt khóa học:</h4>
+            <div class="letter-content">
+                <ul>
+                    <li>Về thái độ học tập, Minh Hiếu là một học sinh vui vẻ, hòa đồng và luôn hoàn thành bài tập đầy đủ. Tuy nhiên, trên lớp con vẫn hay mất tập trung và làm việc riêng, cần thầy phải thường xuyên nhắc nhở để quay lại bài học.</li>
+                    <li>Điểm sáng lớn nhất của Minh Hiếu là tư duy logic tốt và khả năng tiếp thu nhanh. Đặc biệt, thầy đánh giá rất cao khả năng tiếng Anh và kỹ năng tự tìm tòi tài liệu của con, điều này giúp con chủ động rất nhiều trong việc giải quyết vấn đề.</li>
+                    <li>Tuy nhiên, con vẫn còn tâm lý chủ quan trong quá trình học tập. Mặc dù đạt điểm số khá tốt (8/10), nhưng nếu con rèn luyện thêm tính cẩn thận và tập trung cao độ hơn, tiềm năng phát triển của con sẽ còn tiến xa hơn nữa.</li>
+                </ul>
+            </div>
+
+            <h4>Những điều mà EVO muốn đề xuất tới bố mẹ sau một thời gian đồng hành với em:</h4>
+            <div class="letter-content">
+                <ul>
+                    <li>Nhờ gia đình nhắc nhở con cần tập trung hơn trong giờ học, hạn chế làm việc riêng để tiếp thu kiến thức trọn vẹn nhất.</li>
+                    <li>Khuyến khích con dành thời gian luyện tập viết code (coding practice) tại nhà nhiều hơn để đôi tay theo kịp tư duy phân tích, tránh tình trạng hiểu logic nhưng gặp khó khăn khi hiện thực hóa bằng code.</li>
+                </ul>
+            </div>
+
+            <h4>Định hướng tương lai cho học viên:</h4>
+            <p>Minh Hiếu đang có khả năng theo học tốt bộ môn Lập trình Python App này và thầy cũng cảm nhận được sự thích thú của bạn trong quá trình học. Hy vọng gia đình vẫn sẽ tạo điều kiện để Minh Hiếu theo học bộ môn này với lộ trình <strong>Lập trình Python App Advanced</strong>.</p>
+            
+            <p>Trên đây là những chia sẻ ngắn của EVO, với tất cả tình yêu dành cho các bạn học sinh và sự biết ơn đối với bố mẹ của các bạn. EVO hứa sẽ cố gắng để tạo điều kiện tốt nhất cho các bạn học tập và phát triển.</p>
+            
+            <div class="signature">
+                <p>Trân trọng,</p>
+                <p><strong>EVO Creative Technology School</strong></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="strip-blue"></div>
+    <div class="header-strip">
+        <div class="strip-orange"></div>
+    </div>
+</div>
+
+</body>
+</html>

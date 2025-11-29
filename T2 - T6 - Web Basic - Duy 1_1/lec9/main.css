@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.bar {
+	height: 147px;
+	background-color: hsl(260deg 48% 48%);
+	margin: 0;
+}
+
+.main {
+	background-color: hsl(264, 56%, 96%);
+	height: 850px;
+}
+
+.form-contain {
+	margin: 0 auto;
+	width: 50vw;
+	background-color: hsl(0deg 0% 100%);
+	border-top: 19px solid hsl(264deg 97% 74%);
+	padding-left: 43px;
+	padding-right: 43px;
+	position: relative;
+	top: -75px;
+	border-radius: 3px;
+	min-width: 500px;
+	font-family: --bs-font-sans-serif, system-ui, -apple-system, "Segoe UI",
+		Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans",
+		sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+		"Noto Color Emoji";
+	font-size: 20px;
+	border-radius: 3px;
+	padding-bottom: 50px;
+	box-shadow: rgba(0, 0, 0, 0.217) 0px 5px 15px;
+	padding-top: 5px;
+}
+
+.form-contain h1 {
+	font-size: 50px;
+	font-weight: 500;
+	padding-bottom: 15px;
+	padding-top: 30px;
+	margin-bottom: 10px;
+}
+
+.form-contain p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	unicode-bidi: isolate;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
+span {
+	color: rgb(201, 0, 0);
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.input-contain {
+	margin-top: 10px;
+	margin-bottom: 85px;
+}
+input {
+	border: none;
+	border-bottom: 2px solid rgba(128, 128, 128, 0.103);
+	padding-right: 150px;
+	font-size: 20px;
+	padding: 3px;
+}
+.line {
+	transition: 0.5s;
+	width: 0%;
+	height: 3px;
+	background-color: purple;
+}
+input:focus + .line {
+	width: 100%;
+}
+input:focus {
+	outline: none;
+}
+
+.btn-submit {
+	color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+	display: inline-block;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	border: 1px solid transparent;
+	padding: 0.375rem 0.75rem;
+	font-size: 1rem;
+	border-radius: 0.25rem;
+	transition: 0.5s;
+}
+.btn-submit:hover{
+	background-color: #094bac;
+    border-color: #094bac;
+}
+
+.footer {
+	color: #6c757d;
+}
+
+.text {
+	width: 100%;
+}

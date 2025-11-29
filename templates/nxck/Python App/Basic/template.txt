@@ -1,0 +1,117 @@
+﻿A screen shot of a computer
+
+Description automatically generated 
+
+Kết quả học tập
+
+
+	Điểm
+	Nhận xét
+	1. Thái độ
+	* Hợp tác trên lớp
+	5.0
+	Trong lớp, Minh Hiếu thực hiện các nhiệm vụ thầy đề ra và hoàn thành đúng tiến độ. Minh Hiếu có tinh thần xây dựng bài giảng cùng thầy.
+	* Làm bài tập về nhà
+	5.0
+	Minh Hiếu có ý thức làm bài tập về nhà. Con hoàn thành bài tập một cách chất lượng và rất đầy đủ.
+	2. Kỹ năng
+	* Kỹ năng lập trình
+	   4.5
+	Kỹ năng lập trình của Minh Hiếu, thầy đánh giá con luôn luôn có sự sáng tạo và tư duy trong lối tiếp cận những kiến thức của các bài học mới vào trong thuật toán của mình.
+	* Kỹ năng tự tìm hiểu và tự giải quyết
+	4.5
+	Khi gặp một vấn đề mới, con sẽ chủ động xem lại các kiến thức từ các buổi đã học. Và tự xây dựng thuật toán của mình. Điều này thể hiện được rất tốt về khả năng tự giải quyết vấn đề của con.
+	* Kỹ năng phân tích
+	4.5
+	Con có kỹ năng phân tích các đề bài tốt, áp dụng được các kiến thức đã học vào bài tập của mình.
+	3. Kiến thức
+	* Kiến thức trong khoá học
+	5.0
+	Con hiểu được kiến thức lập trình và đã áp dụng được vào dự án của mình nhưng để hiểu rõ và cải thiện chất lượng dự án thì con nên học tập, trau dồi kiến thức nghiên cứu thêm nhiều hơn.
+	* Kiến thức tự học
+	5.0
+	Con có chủ động hỏi bài và tìm hiểu kiến thức code mới trước mỗi buổi học. Đây cũng là điểm mạnh của Minh Hiếu.
+	
+
+Điểm trung bình thành phần
+	Thái độ: 5.0/5
+	Kỹ năng: 4.5/5
+	Kiến thức: 5.0/5
+	
+
+Tổng điểm trung bình: 4.8/5
+	Xếp hạng: A
+	
+
+
+
+Lưu ý tính xếp hạng:
+
+
+Hạng S: 5 điểm
+
+
+Hạng A: từ 4 - 4,9 điểm
+
+
+Hạng B: từ 3 - 3,9 điểm
+
+
+Hạng C: từ 2 - 2,9 điểm
+
+
+Hạng D: dưới 2 điểm
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thư từ EVO Creative Technology School,
+
+
+Gửi gia đình học viên Lý Minh Hiếu,
+Đầu tiên, tất cả đội ngũ thành viên của EVO Creative Technology School xin gửi lời cảm ơn chân thành nhất đến gia đình đã tin tưởng và gửi gắm bạn Minh Hiếu theo học trong khóa học vừa qua. Và cũng xin gửi lời chúc mừng bạn Minh Hiếu đã hoàn thành thành công khóa học Lập trình Python App Basic của EVO.
+  
+
+Con đã học được gì từ EVO?
+* Về kiến thức chuyên môn: Qua 15 buổi học, Minh Hiếu đã được tìm hiểu các khái niệm về ngôn ngữ lập trình Python, cách lập trình giải quyết các bài toán với ngôn ngữ lập trình Python. Từ đó, Minh Hiếu cũng đã xây dựng thuật toán và sơ đồ khối, hiểu biết về khái niệm ngôn ngữ máy, danh sách, vòng lặp và câu điều kiện, xâu ký tự, hàm…
+* Kết thúc phần học, Minh Hiếu đã có thế áp dụng các kiến thức được học về ngôn ngữ lập trình Python để giải quyết các bài toán trên Hackerrank, phần test bạn đã làm Hackathon với số bài test đúng tương đương cao bài có sự cố gắng trong việc hoàn thành các test case, sub được 3 bài nhưng chưa có độ hiệu quả cao, có sự tập trung trong việc đọc và xử lý bài toán.
+* Kỹ năng sử dụng các công cụ như Visual Studio Code, Draw: Trong khóa học, Minh Hiếu cũng được học thêm về cách thiết kế sơ đồ khối và sử draw.io để biểu diễn các thuật toán trong lập trình.
+* Đây là kết quả bài kiểm tra số 1 của Minh Hiếu: 10/10
+* Đây là kết quả bài kiểm tra số 2 của Minh Hiếu: 10/10
+* Đây là kết quả bài kiểm tra cuối khóa của Minh Hiếu: 10 /10
+  
+
+Dưới đây là một số nhận xét của giảng viên về bạn trong xuyên suốt khóa học:
+* Ngay từ những buổi học đầu, Minh Hiếu đã thể hiện thái độ học tập tích cực, lễ phép và luôn đúng giờ. Con có khả năng tiếp thu kiến thức mới nhanh và tư duy lập trình rất tốt. Thầy cảm nhận được Minh Hiếu luôn có năng lượng tích cực trong mỗi buổi học. 
+* Trong lớp, Minh Hiếu không để thầy nhắc nhở nhiều. Con luôn tự giác trong việc học của mình. Đối với thầy, Minh Hiếu là một trong những bạn có thành tích học tập xuất sắc. Con luôn chủ động tìm tòi các kiến thức mới trước mỗi buổi học và luôn đặt ra các câu hỏi cho thầy về kiến thức để được mở rộng hơn.
+* Những đơn vị kiến thức thầy giảng, Minh Hiếu đều nắm bắt được và thực hành rất thành thạo trong các buổi học. Đôi khi con gặp một vài khó khăn nhỏ do kiến thức thầy đưa ra hơi khó một chút để thử thách con hơn.
+* Về kết quả học tập cuối khóa này, thầy đánh giá Minh Hiếu đã đạt kết quả cao. Đây cũng là sự cố gắng và nỗ lực của con trong toàn bộ quá trình học. Thầy tin rằng với sự cố gắng này con sẽ gặt hái được nhiều thành công hơn cho con đường học Lập trình sắp tới.
+  
+
+Những điều mà EVO muốn đề xuất tới bố mẹ sau một thời gian đồng hành với em.
+(những nhược điểm và đề xuất cách khắc phục)
+* Cố gắng giữ phong độ và rèn luyện khả năng học tập của mình cho những khóa học Nâng cao sắp tới. 
+* Tự tin và mạnh dạn đưa ra các câu hỏi cũng như quan điểm cá nhân của mình trong các buổi học.
+* Đi học đầy đủ và đúng giờ hơn để duy trì thói quen học tập tốt.
+  
+
+Định hướng tương lai cho học viên: 
+Minh Hiếu đang có khả năng theo học được bộ môn Lập trình Python App này và thầy cũng cảm nhận được sự thích thú của bạn trong quá trình học và làm sản phẩm cuối khóa. Hy vọng gia đình vẫn sẽ tạo điều kiện để Minh Hiếu theo học bộ môn này với lộ trình Lập trình Python App Advanced.
+Trên đây là những chia sẻ ngắn của EVO, với tất cả tình yêu dành cho các bạn học sinh và sự biết ơn đối với bố mẹ của các bạn. EVO có thể còn nhiều sai sót trong quá trình giảng dạy và vận hành nhưng EVO hứa sẽ cố gắng để tạo điều kiện tốt nhất cho các bạn học tập và phát triển. Bởi sứ mệnh của EVO không bao giờ chỉ là dạy một thứ ngôn ngữ Lập trình, mà là làm thế nào để cả một thế hệ các bạn có thể dùng Công nghệ, thế mạnh của Việt Nam, xây dựng chính tương lai của mình và đất nước, mà ở đó EVO như cái nôi đầu tiên, cũng là nơi sau này đi xa đến mấy các bạn vẫn có thể trở về.
+EVO vô cùng biết ơn với những ý kiến đóng góp, đề xuất của gia đình và bạn dành cho EVO
+Trân trọng,
+EVO Creative Technology School
