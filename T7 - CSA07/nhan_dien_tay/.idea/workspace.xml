@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6ddf289-6a97-4652-8108-9df0e6a67ffb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../T3 - AB/lec13/doraemon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T3 - AB/lec13/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T3 - AB/lec13/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../templates/nxck/Python App/Basic/make-nxck-python-app-basic.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../templates/nxck/Python App/Basic/make-nxck-python-app-basic.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="36S6mZps4ok0OHKrOvSGaTIA47O" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-f79232025321-b1aafe368c7f-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.28294.256" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6ddf289-6a97-4652-8108-9df0e6a67ffb" name="Changes" comment="" />
+      <created>1764987785935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764987785935</updated>
+    </task>
+    <servers />
+  </component>
+</project>

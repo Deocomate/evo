@@ -1,0 +1,5 @@
+# Requirements.txt là file khai báo các thư viện sẽ sử dụng ứng dụng của chúng ta
+opencv-python
+mediapipe
+numpy
+pygame

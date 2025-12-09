@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .xo td {
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" id="num" placeholder="Enter number of XO (? * ?)">
+    <button id="generate-btn">Generate</button>
+    <hr>
+    <div class="xo-box-contain">
+        <table class="xo">
+            <tbody id="xo-tbody">
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        let numInputElement = document.getElementById("num")
+        let buttonElement = document.getElementById("generate-btn")
+        let xoTbodyElement = document.getElementById("xo-tbody")
+
+        buttonElement.onclick = function () {
+            let number = Number(numInputElement.value)
+            console.log("Click button!", number)
+            let tableHtml = ""
+            for (let i = 1; i <= number; i++) {
+
+                let columnHtml = ``
+
+                for (let column = 1; column <= number; column++) {
+                    columnHtml += `<td></td>`
+                }
+
+                tableHtml += "<tr>" + columnHtml + "</tr>"
+            }
+            console.log(tableHtml)
+            xoTbodyElement.innerHTML = tableHtml
+        }
+    </script>
+</body>
+
+</html>
